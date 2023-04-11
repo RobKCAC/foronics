@@ -53,4 +53,4 @@
 
 Get-AppxProvisionedPackage -Online | Select PackageName | sort
 Start-Sleep -Seconds 120
-Restart-Computer -Force
+
