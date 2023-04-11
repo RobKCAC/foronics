@@ -51,5 +51,5 @@
     }
 
 Get-AppxProvisionedPackage -Online | Select PackageName | sort
-Start-Sleep -Seconds 240
+Start-Sleep -Seconds 120
 
