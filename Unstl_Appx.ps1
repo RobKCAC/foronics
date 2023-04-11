@@ -32,8 +32,7 @@
         "*Microsoft.XboxGamingOverlay*" 
         "*Microsoft.XboxIdentityProvider*" 
         "*Microsoft.XboxSpeechToTextOverlay*" 
-        "*Microsoft.YourPhone*"
-                #"*Windows.CBSPreview*"
+        #"*Windows.CBSPreview*"
     )
 
     # Remove apps from current user
