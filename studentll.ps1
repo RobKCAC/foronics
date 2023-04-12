@@ -1,3 +1,2 @@
-New-LocalUser -Name sign -NoPassword -UserMayNotChangePassword
-Set-LocalUser -Name sign -PasswordNeverExpires $true
-Add-LocalGroupMember -Group "Administrators" -Member "sign"
+New-LocalUser -Name StudentLL -NoPassword -UserMayNotChangePassword
+Set-LocalUser -Name StudentLL -PasswordNeverExpires $true
