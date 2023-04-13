@@ -1,2 +1,2 @@
 Disable-LocalUser -Name "StudentLL"
-restart-computer
+restart-computer -force
