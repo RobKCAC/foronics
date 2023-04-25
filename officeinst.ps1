@@ -2,4 +2,4 @@ Set-Service -Name UsoSvc -StartupType Automatic
 Set-Service -Name wuauserv -StartupType Automatic
 Set-Service -Name UsoSvc -Status Running
 Set-Service -Name wuauserv -Status Running
-winget install -q Microsoft.Office  --accept-source-agreements
+winget install Microsoft.Office --silent --accept-package-agreements --accept-source-agreements --exact --scope machine
