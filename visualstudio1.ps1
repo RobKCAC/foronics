@@ -7,5 +7,5 @@ c:
 cd \
 cd "\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.18.431.0_x64__8wekyb3d8bbwe"
 winget.exe source reset --force
-winget.exe source update --accept-package-agreements --accept-source-agreements
-winget.exe install Microsoft.VisualStudio.2022.Community --silent --accept-package-agreements --accept-source-agreements
+winget.exe source update --silent --accept-package-agreements --accept-source-agreements --exact --scope machine
+winget.exe install Microsoft.VisualStudio.2022.Community --silent --accept-package-agreements --accept-source-agreements --exact --scope machine
