@@ -1,5 +1,5 @@
 md "C:\Examplify"
-net use z: "\\spc-mdt01.centralaz.cac\1809DeploymentShare\Applications\_FDeploy+FDeepFreeze.Apps_\Examplify"
+net use z: "\\spc-mdt01\1809DeploymentShare\Applications\_FDeploy+FDeepFreeze.Apps_\Examplify"
 xcopy /H /E /Y "z:\" "C:\Examplify" 
 cd "C:\Examplify"
 .\Examplify_3.4.2_win.exe /s /v" /qn REBOOT=ReallySuppress" /z"C:\Examplify\simple-setup.json"
