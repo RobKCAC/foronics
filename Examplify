@@ -1,4 +1,4 @@
 md "C:\Examplify"
-xcopy /H /E /Y "\\spc-mdt01\1809DeploymentShare\Applications\_FDeploy+FDeepFreeze.Apps_\Examplify" "C:\Examplify"
+xcopy "\\spc-mdt01.centralaz.cac\1809DeploymentShare\Applications\_FDeploy+FDeepFreeze.Apps_\Examplify" "C:\Examplify" /H /E /Y
 cd "C:\Examplify"
 .\Examplify_3.4.2_win.exe /s /v" /qn REBOOT=ReallySuppress" /z"C:\Examplify\simple-setup.json"
