@@ -1,1 +1,1 @@
-Set-DeliveryOptimization -DownloadMode None
+Set-Service -Name "DoSvc" -Status stopped -StartupType disabled
