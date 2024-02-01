@@ -3,3 +3,4 @@ $Name = 'Start'
 $Value = '4'
 
 Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
+Stop-Service -Force -Name "DoSvc"
