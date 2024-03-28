@@ -1,4 +1,4 @@
-Start-Sleep -Seconds 480
+#Start-Sleep -Seconds 480
 #https://social.technet.microsoft.com/Forums/en-US/9cb41ec6-a7a5-46b0-838c-dce2dce2fd83/problem-with-removeappxprovisionedpackage-on-a-fresh-install-of-windows-10-enterprise-build-1803?forum=win10itprosetup
 
  Write-Host "Removing Apps..." -ForegroundColor Green
