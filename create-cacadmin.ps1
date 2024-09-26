@@ -1,7 +1,9 @@
-$Password = Read-Host -AsSecureString
+$Time = Get-Date -Format G
+$Password = $Time+$env:COMPUTERNAME+'!'
+$passwordConverted = ConvertTo-SecureString $password -AsPlainText -Force
 $params = @{
     Name        = 'CACadmin'
-    Password    = $Password
+    Password    = $passwordConverted
     FullName    = 'CACadmin'
     Description = 'Laps Admin'
 }
