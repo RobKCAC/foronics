@@ -7,4 +7,4 @@ if (-not (Test-Path $registryPath)) {
 }
 
 # Set the IncognitoModeAvailability value to 1 (enabled)
-Set-ItemProperty -Path $registryPath -Name "IncognitoModeAvailability" -Value 0
+Set-ItemProperty -Path $registryPath -Name "IncognitoModeAvailability" -Value 1
