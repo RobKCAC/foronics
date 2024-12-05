@@ -25,7 +25,7 @@
         "*microsoft.windowscommunicationsapps*"
         "*Microsoft.WindowsFeedbackHub*"
         "*Microsoft.WindowsMaps*"
-#        "*Microsoft.WindowsStore*"                     
+        "*OutlookForWindows*"                     
         "*Microsoft.Xbox.TCUI*" 
         "*Microsoft.XboxApp*" 
         "*Microsoft.XboxGameOverlay*" 
