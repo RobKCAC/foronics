@@ -10,7 +10,7 @@
         "*Microsoft.BingNews*"
         "*Microsoft.BingWeather*"
 #        "*Microsoft.DesktopAppInstaller*"
-        "*Microsoft.GetHelp*"                          
+#        "*Microsoft.GetHelp*"                          
         "*Microsoft.Getstarted*"
         "*Microsoft.LanguageExperiencePacken-gb*"
         "*Microsoft.Messaging*"
