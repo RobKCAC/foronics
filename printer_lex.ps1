@@ -697,4 +697,3 @@ Write-Host "  Default:    Yes" -ForegroundColor White
 Write-Host ""
 Write-Host "The printer is ready to use!" -ForegroundColor Green
 Write-Host ""
-
