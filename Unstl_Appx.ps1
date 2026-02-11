@@ -25,7 +25,7 @@
         "*microsoft.windowscommunicationsapps*"
         "*Microsoft.WindowsFeedbackHub*"
         "*Microsoft.WindowsMaps*"
-        "*OutlookForWindows*"                     
+        "*Microsoft.OutlookForWindows*"                     
         "*Microsoft.Xbox.TCUI*" 
         "*Microsoft.XboxApp*" 
         "*Microsoft.XboxGameOverlay*" 
@@ -60,4 +60,5 @@ Set-Service -Name wuauserv -Status Running
 Get-AppxPackage "AppInstaller" | add-appxpackage
 
 Start-Sleep -Seconds 240
+
 
